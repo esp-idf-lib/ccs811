@@ -11,7 +11,7 @@ Driver for AMS CCS811 digital gas sensor.
 ## Installation
 
 ```sh
-idf.py add-dependency "esp-idf-lib/ccs811^1.0.0
+idf.py add-dependency esp-idf-lib/ccs811^1.0.0
 ```
 
 ## Support
