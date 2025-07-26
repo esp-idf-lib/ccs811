@@ -1,7 +1,7 @@
 ---
 name: ccs811
 description: Driver for AMS CCS811 digital gas sensor
-version: 1.0.0
+version: 1.0.1
 groups:
   - air-quality
   - gas
