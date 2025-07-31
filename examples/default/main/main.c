@@ -36,7 +36,7 @@ void test(void *pvParameters)
     {
         uint16_t tvoc, eco2;
 
-        if ( (res = ccs811_get_results(&dev, &tvoc, &eco2, NULL, NULL)) == ESP_OK)
+        if ((res = ccs811_get_results(&dev, &tvoc, &eco2, NULL, NULL)) == ESP_OK)
         {
             ESP_LOGI(TAG, "eCO2: %d ppm, TVOC: %d ppb", eco2, tvoc);
         }
